@@ -10,6 +10,12 @@ import { Calendar, User, ArrowLeft } from "lucide-react"
 import { useRouter } from "next/navigation"
 import Image from "next/image"
 import { getArticlesByCategory, type Article } from "@/lib/articleData"
+import AdBanner from "@/components/AdBanner"
+
+const ad = {
+  href: "https://shrinkme.io/ref/Hunteruer",
+  title: "Make short links and earn the biggest money",
+};
 
 const categoryTitles: Record<string, string> = {
   investing: "Investing Guides",
@@ -56,9 +62,16 @@ export default function CategoryPage() {
           </p>
         </div>
 
+        <AdBanner
+          href={ad.href}
+          imgSrc="https://shrinkme.io/banners/ref/970x90.png"
+          imgTitle={ad.title}
+          className="mb-8"
+        />
+
         {/* Articles Grid */}
         {articles.length > 0 ? (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {articles.map((article, index) => (
               <Card
                 key={index}

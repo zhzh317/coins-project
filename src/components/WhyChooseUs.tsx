@@ -9,7 +9,7 @@ const tabs = [
 
 export function WhyChooseUs() {
   return (
-    <section className="py-16">
+    <section>
       <div className="max-w-4xl mx-auto">
         {/* Tab Navigation */}
         <div className="flex flex-wrap gap-4 mb-8">

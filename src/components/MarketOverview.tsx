@@ -53,7 +53,7 @@ export function MarketOverview() {
   }
 
   return (
-    <section className="py-16">
+    <section>
       <Card className="bg-card/60 backdrop-blur-sm border-border/50">
         <CardHeader>
           <div className="flex items-center justify-between">

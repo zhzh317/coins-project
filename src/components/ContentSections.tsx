@@ -57,12 +57,12 @@ export function ContentSections() {
   const router = useRouter()
 
   return (
-    <div className="space-y-16">
+    <div className="space-y-12">
       {sectionData.map((section, sectionIndex) => {
         const categoryArticles = getArticlesByCategory(section.category).slice(0, 3)
 
         return (
-          <section key={sectionIndex} className="py-8">
+          <section key={sectionIndex}>
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">

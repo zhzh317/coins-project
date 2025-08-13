@@ -58,7 +58,7 @@ export function ContactForm() {
   }
 
   return (
-    <Card className="bg-card/80 backdrop-blur-sm border-border/50">
+    <Card className="flex flex-col bg-card/80 backdrop-blur-sm border-border/50">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-center">
           Got Crypto Fraud? Need Finance Help?
@@ -67,8 +67,8 @@ export function ContactForm() {
           Don&apos;t Wait! We&apos;re Here to Help.
         </p>
       </CardHeader>
-      <CardContent>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+      <CardContent className="flex-grow flex flex-col">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col flex-grow space-y-4">
           <Input placeholder="Name" {...form.register("name")} disabled={loading} />
           {form.formState.errors.name && (
             <p className="text-red-500 text-sm">{form.formState.errors.name.message}</p>
@@ -84,7 +84,7 @@ export function ContactForm() {
             <p className="text-red-500 text-sm">{form.formState.errors.phone.message}</p>
           )}
 
-          <Textarea placeholder="How can we help?" {...form.register("message")} disabled={loading} />
+          <Textarea placeholder="How can we help?" {...form.register("message")} disabled={loading} className="flex-grow"/>
           {form.formState.errors.message && (
             <p className="text-red-500 text-sm">{form.formState.errors.message.message}</p>
           )}

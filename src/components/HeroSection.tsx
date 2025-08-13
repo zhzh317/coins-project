@@ -55,17 +55,17 @@ export function HeroSection() {
   }
 
   return (
-    <section className="relative bg-cover bg-center bg-no-repeat py-24 md:py-32 lg:py-40" style={{ backgroundImage: "url('/placeholder.svg')" }}>
+    <section className="relative flex items-center bg-cover bg-center bg-no-repeat py-16 md:py-20">
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background" />
       <div className="container mx-auto px-4 relative">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Navigate the Future of Finance with <span className="text-primary">CoinsCiphers</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
             Your trusted source for cryptocurrency news, in-depth analysis, and expert investment guides.
           </p>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="max-w-lg mx-auto">
+          <form onSubmit={form.handleSubmit(onSubmit)} className="max-w-lg">
             <div className="flex items-center space-x-2 bg-card p-2 rounded-lg border border-border/50 shadow-lg">
               <Input
                 type="email"
