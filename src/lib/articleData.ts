@@ -36,7 +36,7 @@ export const allArticles: Article[] = [
     category: "INVESTING",
     author: "COINSCIPHERS EDITORS",
     date: "January 19, 2025",
-    image: "https://ext.same-assets.com/659829736/602114545.png",
+    image: "https://images.unsplash.com/photo-1644361565876-a0e23f8a2f1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "5 min read",
     tags: ["trump coin", "meme coin", "cryptocurrency", "defi", "investing"],
     slug: "trump-coin-guide"
@@ -61,7 +61,7 @@ export const allArticles: Article[] = [
     category: "INVESTING",
     author: "MOLLY TALIOR",
     date: "April 23, 2024",
-    image: "https://ext.same-assets.com/659829736/632691144.png",
+    image: "https://images.unsplash.com/photo-1641831836159-449a0a434b92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["robinhood", "cryptocurrency", "investing", "bitcoin", "trading"],
     slug: "buy-crypto-robinhood"
@@ -95,7 +95,7 @@ export const allArticles: Article[] = [
     category: "METAMASK",
     author: "MOLLY TALIOR",
     date: "April 25, 2024",
-    image: "https://ext.same-assets.com/659829736/1855264074.png",
+    image: "https://images.unsplash.com/photo-1639755498822-421278855a9b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "4 min read",
     tags: ["zetachain", "metamask", "blockchain", "wallet", "tutorial"],
     slug: "add-zetachain-metamask"
@@ -155,9 +155,9 @@ export const allArticles: Article[] = [
     category: "INVESTING",
     author: "MOLLY TALIOR",
     date: "April 30, 2024",
-    image: "https://ext.same-assets.com/659829736/3743683483.png",
+    image: "https://images.unsplash.com/photo-1518546305921-a20237e163b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
-    tags: ["zitraat bank", "turkey", "cryptocurrency", "bitcoin", "trading"],
+    tags: ["ziraat bank", "turkey", "cryptocurrency", "bitcoin", "trading"],
     slug: "buy-crypto-zitraat-bank"
   },
   {
@@ -177,7 +177,7 @@ export const allArticles: Article[] = [
     category: "INVESTING",
     author: "COINSCIPHERS EDITORS",
     date: "January 15, 2025",
-    image: "https://ext.same-assets.com/659829736/602114545.png",
+    image: "https://images.unsplash.com/photo-1621452298218-5b4a3a6d6e24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "8 min read",
     tags: ["cryptocurrency", "investment strategies", "2025", "portfolio", "defi"],
     slug: "crypto-investment-strategies-2025"
@@ -203,7 +203,7 @@ export const allArticles: Article[] = [
     category: "METAMASK",
     author: "MOLLY TALIOR",
     date: "January 10, 2025",
-    image: "https://ext.same-assets.com/659829736/1855264074.png",
+    image: "https://images.unsplash.com/photo-1639322537233-b4a8493f0b2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["metamask", "security", "wallet protection", "cryptocurrency safety", "best practices"],
     slug: "metamask-security-guide"
@@ -228,7 +228,7 @@ export const allArticles: Article[] = [
     category: "METAMASK",
     author: "COINSCIPHERS EDITORS",
     date: "December 28, 2024",
-    image: "https://ext.same-assets.com/659829736/1855264074.png",
+    image: "https://images.unsplash.com/photo-1639762681057-408e52192e05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["metamask", "hardware wallet", "ledger", "trezor", "security"],
     slug: "metamask-hardware-wallet-guide"
@@ -255,7 +255,7 @@ export const allArticles: Article[] = [
     category: "CASINO",
     author: "COINSCIPHERS EDITORS",
     date: "January 12, 2025",
-    image: "https://ext.same-assets.com/659829736/632691144.png",
+    image: "https://images.unsplash.com/photo-1579547945412-0348c4a03744?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["crypto casino", "bitcoin gambling", "online casino", "provably fair", "cryptocurrency"],
     slug: "best-crypto-casinos-2025"
@@ -282,7 +282,7 @@ export const allArticles: Article[] = [
     category: "CASINO",
     author: "MOLLY TALIOR",
     date: "December 20, 2024",
-    image: "https://ext.same-assets.com/659829736/859811973.png",
+    image: "https://images.unsplash.com/photo-1560419439-61b69324811a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "5 min read",
     tags: ["provably fair", "crypto casino", "blockchain", "fairness", "gaming"],
     slug: "provably-fair-gaming-guide"
@@ -306,7 +306,7 @@ export const allArticles: Article[] = [
     category: "CASINO",
     author: "COINSCIPHERS EDITORS",
     date: "December 10, 2024",
-    image: "https://ext.same-assets.com/659829736/858934483.png",
+    image: "https://images.unsplash.com/photo-1624555130581-2d396180a2a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["casino bonuses", "crypto casino", "welcome offers", "gambling strategy", "promotions"],
     slug: "crypto-casino-bonuses-guide"
@@ -332,7 +332,7 @@ export const allArticles: Article[] = [
     category: "REVIEWS",
     author: "MOLLY TALIOR",
     date: "January 14, 2025",
-    image: "https://ext.same-assets.com/659829736/632691144.png",
+    image: "https://images.unsplash.com/photo-1640588869150-3a13d7178c29?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "8 min read",
     tags: ["binance", "exchange review", "cryptocurrency trading", "crypto exchange", "trading platform"],
     slug: "binance-review-2025"
@@ -361,7 +361,7 @@ Both are excellent choices for <a href='/'><strong>crypto trading</strong></a>, 
     category: "REVIEWS",
     author: "COINSCIPHERS EDITORS",
     date: "December 28, 2024",
-    image: "https://ext.same-assets.com/659829736/859811973.png",
+    image: "https://images.unsplash.com/photo-1642158029921-2d57903bd8a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["coinbase", "kraken", "exchange comparison", "crypto trading", "platform review"],
     slug: "coinbase-vs-kraken-review"
@@ -388,7 +388,7 @@ Both are excellent choices for <a href='/'><strong>crypto trading</strong></a>, 
     category: "REVIEWS",
     author: "MOLLY TALIOR",
     date: "December 5, 2024",
-    image: "https://ext.same-assets.com/659829736/858934483.png",
+    image: "https://images.unsplash.com/photo-1639762681446-63e52192e054?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["ledger nano x", "hardware wallet", "security", "crypto storage", "wallet review"],
     slug: "ledger-nano-x-review"
@@ -442,7 +442,7 @@ Both are excellent choices for <a href='/'><strong>crypto trading</strong></a>, 
     category: "COMPARISONS",
     author: "COINSCIPHERS EDITORS",
     date: "January 11, 2025",
-    image: "https://ext.same-assets.com/659829736/602114545.png",
+    image: "https://images.unsplash.com/photo-1644361565876-a0e23f8a2f1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "9 min read",
     tags: ["bitcoin", "ethereum", "cryptocurrency comparison", "investment analysis", "blockchain"],
     slug: "bitcoin-vs-ethereum-comparison"
@@ -491,7 +491,7 @@ Both are excellent choices for <a href='/'><strong>crypto trading</strong></a>, 
     category: "COMPARISONS",
     author: "MOLLY TALIOR",
     date: "December 22, 2024",
-    image: "https://ext.same-assets.com/659829736/632691144.png",
+    image: "https://images.unsplash.com/photo-1640622300473-980f0c5b338a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "8 min read",
     tags: ["defi", "cefi", "decentralized finance", "centralized finance", "comparison"],
     slug: "defi-vs-cefi-comparison"
@@ -516,7 +516,7 @@ Both are excellent choices for <a href='/'><strong>crypto trading</strong></a>, 
     category: "COMPARISONS",
     author: "COINSCIPHERS EDITORS",
     date: "December 18, 2024",
-    image: "https://ext.same-assets.com/659829736/859811973.png",
+    image: "https://images.unsplash.com/photo-1621405788880-9279a0e738b5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["staking", "mining", "profitability", "cryptocurrency", "comparison"],
     slug: "staking-vs-mining-comparison"
@@ -542,7 +542,7 @@ Both are excellent choices for <a href='/'><strong>crypto trading</strong></a>, 
     category: "EXPLAINED",
     author: "MOLLY TALIOR",
     date: "January 9, 2025",
-    image: "https://ext.same-assets.com/659829736/632691144.png",
+    image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "8 min read",
     tags: ["defi", "decentralized finance", "blockchain", "cryptocurrency", "smart contracts"],
     slug: "what-is-defi-explained"
@@ -572,7 +572,7 @@ A plane ticket, however, is non-fungible. It has your specific name, seat number
     category: "EXPLAINED",
     author: "COINSCIPHERS EDITORS",
     date: "December 25, 2024",
-    image: "https://ext.same-assets.com/659829736/1855264074.png",
+    image: "https://images.unsplash.com/photo-1628191138891-760f38b814a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["nfts", "non-fungible tokens", "digital art", "blockchain", "collectibles"],
     slug: "nfts-explained-beginners"
@@ -606,7 +606,7 @@ A plane ticket, however, is non-fungible. It has your specific name, seat number
     category: "EXPLAINED",
     author: "MOLLY TALIOR",
     date: "December 12, 2024",
-    image: "https://ext.same-assets.com/659829736/858934483.png",
+    image: "https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["blockchain", "technology", "distributed ledger", "cryptocurrency", "applications"],
     slug: "blockchain-technology-explained"
@@ -637,7 +637,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "DIAMONDS",
     author: "COINSCIPHERS EDITORS",
     date: "January 7, 2025",
-    image: "https://ext.same-assets.com/659829736/602114545.png",
+    image: "https://images.unsplash.com/photo-1599214223245-6a23a3e9a7e3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "10 min read",
     tags: ["diamond investment", "tokenization", "alternative assets", "physical diamonds", "digital assets"],
     slug: "diamond-investment-guide"
@@ -670,7 +670,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "DIAMONDS",
     author: "MOLLY TALIOR",
     date: "December 30, 2024",
-    image: "https://ext.same-assets.com/659829736/3743683483.png",
+    image: "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["diamond authenticity", "certification", "appraisal", "gemology", "investment"],
     slug: "diamond-authenticity-verification"
@@ -702,7 +702,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "DIAMONDS",
     author: "COINSCIPHERS EDITORS",
     date: "December 14, 2024",
-    image: "https://ext.same-assets.com/659829736/859811973.png",
+    image: "https://images.unsplash.com/photo-1629821773170-a61b88a8a3a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "8 min read",
     tags: ["diamond tokenization", "blockchain", "luxury assets", "trading", "digital assets"],
     slug: "diamond-tokenization-guide"
@@ -733,7 +733,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "METAMASK",
     author: "MOLLY TALIOR",
     date: "July 25, 2025",
-    image: "https://ext.same-assets.com/659829736/2602516949.png",
+    image: "https://images.unsplash.com/photo-1639322537527-9a9b7a1d1b2a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "5 min read",
     tags: ["metamask", "gas fees", "ethereum", "transaction costs", "blockchain"],
     slug: "metamask-gas-fees"
@@ -761,7 +761,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "STOCKS",
     author: "MOLLY TALIOR",
     date: "April 24, 2024",
-    image: "https://ext.same-assets.com/659829736/859811973.png",
+    image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "5 min read",
     tags: ["s&p 500", "revolut", "stock investing", "index funds", "portfolio"],
     slug: "buy-sp500-revolut"
@@ -795,7 +795,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "STOCKS",
     author: "MOLLY TALIOR",
     date: "April 15, 2024",
-    image: "https://ext.same-assets.com/659829736/858934483.png",
+    image: "https://images.unsplash.com/photo-1579547945412-0348c4a03744?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "8 min read",
     tags: ["stock trading", "trading platforms", "usa", "investing", "brokers"],
     slug: "best-stock-trading-platforms"
@@ -823,7 +823,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "STOCKS",
     author: "MOLLY TALIOR",
     date: "January 8, 2025",
-    image: "https://ext.same-assets.com/659829736/602114545.png",
+    image: "https://images.unsplash.com/photo-1611989065359-e2b29a2c3a33?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["tesla stock", "stock investing", "electric vehicles", "growth stocks", "investing guide"],
     slug: "how-to-buy-tesla-stock"
@@ -845,7 +845,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "STOCKS",
     author: "COINSCIPHERS EDITORS",
     date: "December 15, 2024",
-    image: "https://ext.same-assets.com/659829736/632691144.png",
+    image: "https://images.unsplash.com/photo-1644361565876-a0e23f8a2f1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["dividend investing", "passive income", "dividend stocks", "portfolio", "income investing"],
     slug: "dividend-investing-strategies"
@@ -875,7 +875,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "PREDICTIONS",
     author: "COINSCIPHERS EDITORS",
     date: "July 28, 2025",
-    image: "https://ext.same-assets.com/659829736/3716991039.png",
+    image: "https://images.unsplash.com/photo-1644361565876-a0e23f8a2f1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["dogecoin", "price prediction", "meme coin", "cryptocurrency", "market analysis"],
     slug: "will-dogecoin-hit-1-dollar"
@@ -901,7 +901,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "PREDICTIONS",
     author: "MOLLY TALIOR",
     date: "May 10, 2024",
-    image: "https://ext.same-assets.com/659829736/1536639884.png",
+    image: "https://images.unsplash.com/photo-1644361565876-a0e23f8a2f1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "8 min read",
     tags: ["ravencoin", "price prediction", "cryptocurrency", "technical analysis", "altcoin"],
     slug: "ravencoin-price-prediction"
@@ -933,7 +933,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "PREDICTIONS",
     author: "MOLLY TALIOR",
     date: "July 4, 2025",
-    image: "https://ext.same-assets.com/659829736/2700059141.png",
+    image: "https://images.unsplash.com/photo-1631603090239-12a297963249?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%_3D%3D",
     readTime: "7 min read",
     tags: ["pi network", "price prediction", "mobile mining", "cryptocurrency", "blockchain"],
     slug: "pi-network-price-prediction"
@@ -959,7 +959,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "PREDICTIONS",
     author: "COINSCIPHERS EDITORS",
     date: "January 5, 2025",
-    image: "https://ext.same-assets.com/659829736/602114545.png",
+    image: "https://images.unsplash.com/photo-1624996708761-41d828c892f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "9 min read",
     tags: ["bitcoin", "price prediction", "bull market", "technical analysis", "cryptocurrency"],
     slug: "bitcoin-price-prediction-2025"
@@ -981,7 +981,7 @@ This is a powerful new form of <a href='/'><strong>diamond investing</strong></a
     category: "INVESTING",
     author: "COINSCIPHERS EDITORS",
     date: "January 20, 2025",
-    image: "https://ext.same-assets.com/659829736/859811973.png",
+    image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=2089&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["risk management", "crypto investing", "portfolio protection", "diversification", "trading"],
     slug: "crypto-risk-management"
@@ -1011,7 +1011,7 @@ Understanding the tokenomics is fundamental to good <a href='/'><strong>crypto d
     category: "INVESTING",
     author: "MOLLY TALIOR",
     date: "January 22, 2025",
-    image: "https://ext.same-assets.com/659829736/632691144.png",
+    image: "https://images.unsplash.com/photo-1639762681057-408e52192e05?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["altcoin research", "crypto investing", "due diligence", "tokenomics", "analysis"],
     slug: "how-to-research-altcoins"
@@ -1033,7 +1033,7 @@ Understanding the tokenomics is fundamental to good <a href='/'><strong>crypto d
     category: "PREDICTIONS",
     author: "COINSCIPHERS EDITORS",
     date: "February 01, 2025",
-    image: "https://ext.same-assets.com/659829736/3716991039.png",
+    image: "https://images.unsplash.com/photo-1634712282210-2b5d4b54593d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "7 min read",
     tags: ["shiba inu", "price prediction", "shib", "meme coin", "token burn"],
     slug: "shiba-inu-price-prediction"
@@ -1055,7 +1055,7 @@ Understanding the tokenomics is fundamental to good <a href='/'><strong>crypto d
     category: "PREDICTIONS",
     author: "MOLLY TALIOR",
     date: "February 05, 2025",
-    image: "https://ext.same-assets.com/659829736/1536639884.png",
+    image: "https://images.unsplash.com/photo-1642158029921-2d57903bd8a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["solana", "price prediction", "sol", "blockchain", "altcoin"],
     slug: "solana-price-prediction-2025"
@@ -1081,7 +1081,7 @@ Understanding the tokenomics is fundamental to good <a href='/'><strong>crypto d
     category: "STOCKS",
     author: "COINSCIPHERS EDITORS",
     date: "February 10, 2025",
-    image: "https://ext.same-assets.com/659829736/602114545.png",
+    image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "6 min read",
     tags: ["index funds", "investing", "passive investing", "beginner's guide", "stocks"],
     slug: "how-to-invest-in-index-funds"
@@ -1113,7 +1113,7 @@ Understanding the tokenomics is fundamental to good <a href='/'><strong>crypto d
     category: "STOCKS",
     author: "MOLLY TALIOR",
     date: "February 12, 2025",
-    image: "https://ext.same-assets.com/659829736/858934483.png",
+    image: "https://images.unsplash.com/photo-1579547945412-0348c4a03744?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "5 min read",
     tags: ["stock market", "volatility", "investing", "risk management", "market psychology"],
     slug: "what-is-stock-market-volatility"
@@ -1140,7 +1140,7 @@ Understanding the tokenomics is fundamental to good <a href='/'><strong>crypto d
     category: "METAMASK",
     author: "COINSCIPHERS EDITORS",
     date: "February 15, 2025",
-    image: "https://ext.same-assets.com/659829736/1855264074.png",
+    image: "https://images.unsplash.com/photo-1639755498822-421278855a9b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "4 min read",
     tags: ["metamask", "custom token", "erc-20", "wallet guide", "crypto assets"],
     slug: "how-to-add-custom-tokens-metamask"
@@ -1166,7 +1166,7 @@ Understanding the tokenomics is fundamental to good <a href='/'><strong>crypto d
     category: "METAMASK",
     author: "MOLLY TALIOR",
     date: "February 18, 2025",
-    image: "https://ext.same-assets.com/659829736/2602516949.png",
+    image: "https://images.unsplash.com/photo-1644361565876-a0e23f8a2f1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     readTime: "3 min read",
     tags: ["metamask", "swag store", "merchandise", "crypto community", "apparel"],
     slug: "what-is-metamask-swag-store"
