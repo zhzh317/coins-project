@@ -1,65 +1,45 @@
-import { notFound } from "next/navigation"
-import { getArticleBySlug, getRelatedArticles } from "@/lib/articleData"
-import type { Metadata, ResolvingMetadata } from 'next'
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
-import AdBanner from "@/components/AdBanner"
-import ArticleClientContent from "./ArticleClientContent"
+import { getArticleBySlug, getRelatedArticles } from "@/lib/articleData";
+import { notFound } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import ArticleContent from "./ArticleClientContent";
 
 type Props = {
-  params: { slug: string }
-}
-
-const ad = {
-  href: "https://shrinkme.io/ref/Hunteruer",
-  title: "Make short links and earn the biggest money",
+  params: { slug: string };
 };
 
-export async function generateMetadata(
-  { params }: Props,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
-  const slug = params.slug
-  const article = getArticleBySlug(slug)
+export async function generateMetadata({ params }: Props) {
+  const article = getArticleBySlug(params.slug);
 
   if (!article) {
     return {
-      title: 'Article Not Found',
-    }
+      title: "Article Not Found",
+      description: "The article you are looking for does not exist.",
+    };
   }
-
-  // Optionally, you can fall back to the main title
-  const previousImages = (await parent).openGraph?.images || []
 
   return {
     title: article.metaTitle || article.title,
     description: article.metaDescription || article.excerpt,
-    openGraph: {
-      images: [article.image, ...previousImages],
-    },
-  }
+  };
 }
 
-export default function ArticlePage({ params }: Props) {
-  const slug = params.slug
-  const article = getArticleBySlug(slug)
+export default async function ArticlePage({ params }: Props) {
+  const article = getArticleBySlug(params.slug);
 
   if (!article) {
-    notFound()
+    notFound();
   }
 
-  const relatedArticles = getRelatedArticles(slug, article.category, 3)
+  const relatedArticles = getRelatedArticles(params.slug, article.category, 3);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="bg-background min-h-screen">
       <Header />
       <main className="container mx-auto px-4 py-8">
-        <ArticleClientContent 
-          article={article} 
-          relatedArticles={relatedArticles}
-        />
+        <ArticleContent article={article} relatedArticles={relatedArticles} />
       </main>
       <Footer />
     </div>
-  )
+  );
 }

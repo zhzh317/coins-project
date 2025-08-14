@@ -10,6 +10,8 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Menu, Search, User, LogOut, Settings, BookmarkPlus } from "lucide-react"
 import { toast } from "sonner"
 import { useAuth } from "@/contexts/AuthContext"
+import Image from "next/image"
+import Link from "next/link"
 
 const navigationItems = [
   { name: "Online Casino", href: "/category/casino" },
@@ -67,19 +69,17 @@ export function Header() {
   return (
     <header className="border-b border-border/40 backdrop-blur-sm bg-background/30 sticky top-0 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-2 cursor-pointer" onClick={() => router.push('/')}>
-            <div className="relative w-8 h-8">
-              <div className="w-full h-full bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">C</span>
-              </div>
+          <Link href="/" className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+              <Image src="/images/logo.png" alt="CoinsCiphers Logo" width={20} height={20} />
             </div>
             <div className="text-xl font-bold">
               <span className="text-foreground">COINS</span>
               <span className="text-primary">CIPHERS</span>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-6">

@@ -1,31 +1,36 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 const tabs = [
-  { id: "why-us", label: "Why Us", active: true },
-  { id: "about-us", label: "About Us", active: false },
-  { id: "overview", label: "Overview", active: false },
-  { id: "research", label: "Research", active: false }
+  { id: "why-us", label: "Why Us", href: "#why-us-content" },
+  { id: "about-us", label: "About Us", href: "/about" },
+  { id: "overview", label: "Overview", href: "/overview" },
+  { id: "research", label: "Research", href: "/research" }
 ]
 
 export function WhyChooseUs() {
+  // Note: The original component had a state for active tab, 
+  // but since these are now links to different pages, the concept of an "active" tab
+  // within this component is no longer directly applicable. The active state will be
+  // determined by the current URL path, which is handled by the Header component.
+  // The first tab is styled differently as a simple anchor link.
+
   return (
     <section>
       <div className="max-w-4xl mx-auto">
         {/* Tab Navigation */}
         <div className="flex flex-wrap gap-4 mb-8">
           {tabs.map((tab) => (
-            <Button
-              key={tab.id}
-              variant={tab.active ? "default" : "outline"}
-              className={tab.active ? "bg-primary text-primary-foreground" : ""}
-            >
-              {tab.label}
+            <Button key={tab.id} asChild variant={tab.id === 'why-us' ? 'default' : 'outline'}>
+              <Link href={tab.href}>
+                {tab.label}
+              </Link>
             </Button>
           ))}
         </div>
 
         {/* Content */}
-        <div className="space-y-6">
+        <div id="why-us-content" className="space-y-6 scroll-mt-20">
           <h2 className="text-3xl font-bold mb-6">
             Why To Choose coinsciphers.com as Your Source?
           </h2>
