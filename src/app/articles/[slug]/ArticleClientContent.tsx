@@ -39,7 +39,7 @@ export default function ArticleClientContent({ article, relatedArticles }: Artic
               {article.title}
             </h1>
             <p className="text-xl text-muted-foreground mb-6">
-              {article.description}
+              {article.excerpt}
             </p>
             <div className="flex items-center space-x-6 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
@@ -113,7 +113,11 @@ export default function ArticleClientContent({ article, relatedArticles }: Artic
             </div>
           </section>
         )}
-        <AdBanner />
+        {/* <AdBanner 
+          href="https://shrinkme.io/ref/Hunteruer"
+          imgSrc="https://shrinkme.io/banners/ref/970x90.png"
+          imgTitle="Make short links and earn the biggest money"
+        /> */}
       </aside>
     </div>
   )

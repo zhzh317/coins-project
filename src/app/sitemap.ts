@@ -3,7 +3,7 @@ import { allArticles, getAllCategories } from '@/lib/articleData';
 
 const BASE_URL = 'https://coinsciphers.com';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages = [
     '/',
     '/about',

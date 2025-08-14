@@ -5,11 +5,12 @@ import { Footer } from "@/components/Footer";
 import ArticleContent from "./ArticleClientContent";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props) {
-  const article = getArticleBySlug(params.slug);
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
 
   if (!article) {
     return {
@@ -25,13 +26,14 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function ArticlePage({ params }: Props) {
-  const article = getArticleBySlug(params.slug);
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
 
   if (!article) {
     notFound();
   }
 
-  const relatedArticles = getRelatedArticles(params.slug, article.category, 3);
+  const relatedArticles = getRelatedArticles(slug, article.category, 3);
 
   return (
     <div className="bg-background min-h-screen">
